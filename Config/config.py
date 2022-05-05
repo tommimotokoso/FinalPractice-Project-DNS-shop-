@@ -1,0 +1,53 @@
+class TestData:
+
+    CHROME_EXECUTABLE_PATH = "C:\ProgramData\chromedriver.exe"
+
+    BASE_URL = "https://www.dns-shop.ru/"
+    PROFILE_URL = "https://profile.dns-shop.ru/"
+    CART_URL = "https://www.dns-shop.ru/cart/"
+
+    LOGIN_VALID_EMAIL = "введите email"
+    LOGIN_VALID_PASSWORD = "введите пароль"
+    LOGIN_NO_VALID_EMAIL = "111"
+    LOGIN_NO_VALID_PASSWORD = "111"
+    LOGIN_EMPTY_EMAIL = ""
+    LOGIN_EMPTY_PASSWORD = ""
+
+    PROFILE_TITLE = "Настройки - Единый профиль"
+    SEARCH_TITLE = "Результаты поиска - DNS – интернет магазин цифровой и бытовой техники по доступным ценам."
+    CART_TITLE = "Корзина"
+
+    SEARCH_FULL_LOWER = "смартфон"
+    SEARCH_REVERSE_NAME = "cvfhnajy"
+    SEARCH_FULL_BIGGER = "СМАРТФОН"
+    SEARCH_PARTIAL_NAME = "смар"
+    SEARCH_UNDER_SCORE_NAME = "_____смартфон"
+    SEARCH_TRIPLE_N = "смартфоннн"
+    SEARCH_SHUFFLE_LETTERS = "срамтфон"
+    SEARCH_NO_VALID = "павпывапвыапваыпвыап"
+    SEARCH_TV = "ntktdbpjh"
+
+    PROFILE_STATUS_CHANGE = "test1"
+
+    FILTERS_MIN_PRICE1 = "9000"
+    FILTERS_MIN_PRICE2 = "100000"
+    FILTERS_MAX_PRICE1 = "30000"
+    FILTERS_MAX_PRICE2 = "6000000"
+    FILTERS_MIN_DIAGONAL1 = "23"
+    FILTERS_MIN_DIAGONAL2 = "60"
+    FILTERS_MAX_DIAGONAL1 = "50"
+    FILTERS_MAX_DIAGONAL2 = "84"
+    FILTERS_TOTAL_DIAG_23x50 = "Диагональ экрана (дюйм): от 23 до 50"
+    FILTERS_TOTAL_DIAG_23x84 = "Диагональ экрана (дюйм): от 23 до 84"
+    FILTERS_TOTAL_DIAG_60x50 = "Диагональ экрана (дюйм): от 50 до 60"
+    FILTERS_TOTAL_DIAG_60x84 = "Диагональ экрана (дюйм): от 60 до 84"
+    FILTERS_TOTAL_PRICE_9kx30k = "Цена: от 9 000 ₽ до 30 000 ₽"
+    FILTERS_TOTAL_PRICE_9kx6000k = "Цена: от 9 000 ₽ до 6 000 000 ₽"
+    FILTERS_TOTAL_PRICE_100kx30k = "Цена: от 30 000 ₽ до 100 000 ₽"
+    FILTERS_TOTAL_PRICE_100kx6000k = "Цена: от 100 000 ₽ до 6 000 000 ₽"
+    FILTERS_TOTAL_DIAG_55x65 = "Диагональ экрана (дюйм): от 55 до 6 4.9"
+    FILTERS_TOTAL_PRICE_more_100k = "Цена: от 100 001 ₽"
+    FILTERS_TOTAL_SMART_TV_ON = "Поддержка Smart TV: есть"
+    FILTERS_NEGATIVE_PRICE1 = "-40000"
+    FILTERS_NEGATIVE_PRICE2 = "5"
+
